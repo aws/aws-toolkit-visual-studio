@@ -20,6 +20,12 @@ The AWS Toolkit for Visual Studio supports Visual Studio 2017 and 2019
 - Using the editor for Amazon SQS queues you can see and edit the properties, send messages to the queue and view a sampling of the messages in the queue.
 - Using the editor for Amazon SNS topics you can see properties, publish messages to the queue and create subscriptions to the topic.  You can also drag and drop queues onto the topic editor to create subscriptions.
 
+## Code of Conduct
+
+This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
+For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
+opensource-codeofconduct@amazon.com with any additional questions or comments.
+
 ## License
 
-This extension is licensed under the Apache 2.0 License.
+This repo is licensed under the Apache 2.0 License.

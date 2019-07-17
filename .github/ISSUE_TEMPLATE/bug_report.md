@@ -22,10 +22,11 @@ example:
 **Screenshots**
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-**Desktop (please complete the following information):**
- - OS:
- - Visual Studio Version:
- - AWS Toolkit for Visual Studio Version:
+**Computer (please complete the following information):**
+
+- Windows Version:
+- Visual Studio Version:
+- AWS Toolkit for Visual Studio Version:
 
 **Additional context**
 <!-- Add any other context about the problem here. -->
