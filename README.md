@@ -1,10 +1,10 @@
 # AWS Toolkit For Visual Studio
 
-**At this time, this repo is an issues only repo. It is for bug reports, feature requests, and questions.**
-
 The AWS Toolkit for Visual Studio is an extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using Amazon Web Services, allowing you to get started faster and be more productive.
 
 Please see our [user guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html) for guide on how to use the AWS Toolkit for Visual Studio, as well as our [marketplace page](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017) to install.
+
+**At this time, this repo is an issues only repo. It is for bug reports, feature requests, and questions.**
 
 ## Supported Visual Studio Versions
 
