@@ -11,8 +11,8 @@ about: Create a report to help us improve the AWS Toolkit for Visual Studio
 Steps to reproduce the behavior
 example:
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+2. Click on '...'
+3. Scroll down to '...'
 4. See error
 -->
 
