@@ -31,3 +31,5 @@ opensource-codeofconduct@amazon.com with any additional questions or comments.
 ## License
 
 This repo is licensed under the Apache 2.0 License.
+
+The AWS Toolkit for Visual Studio is licensed under the [AWS Customer Agreement](https://marketplace.visualstudio.com/items/AmazonWebServices.AWSToolkitforVisualStudio2017/license)
