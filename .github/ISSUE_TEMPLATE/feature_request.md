@@ -1,6 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for the AWS Toolkit for Visual Studio
+labels: feature-request
 ---
 
 **Is your feature request related to a problem? Please describe.**
