@@ -10,7 +10,7 @@ Please see our [user guide](https://docs.aws.amazon.com/toolkit-for-visual-studi
 
 The AWS Toolkit for Visual Studio supports Visual Studio 2017 and 2019
 
-## Highlighed Features
+## Highlighted Features
 
 - The AWS Explorer presents a tree view of your AWS resources such as Amazon EC2, Amazon S3, Amazon DynamoDB, AWS Lambda, AWS CloudFormation and other services as well. With the AWS Explorer, you can view and edit resources within these services.
 - Web Applications and Web Sites can be deployed to the AWS cloud by right clicking on the project in the Solution Explorer and selecting "Publish to AWS Elastic Beanstalk".
