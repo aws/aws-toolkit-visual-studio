@@ -1,3 +1,10 @@
+## 1.19.0.0 (2020-11-23)
+
+- **Bug Fix** The AWS .NET Mock Lambda Test Tool is now configured in launchSettings.json with a location based on %USERPROFILE% instead of %USERNAME%
+- **Feature** Improved solution load times by only installing the Lambda Test tool once per IDE session instead of once per applicable project.
+- **Feature** Lambda Function View Panel now shows function's state and last updated status.
+- **Feature** Added AWS CodeArtifact in AWS Explorer with option to copy NuGet source endpoint. Added NuGet Credential Provider for CodeArtifact.
+
 ## 1.18.1.0 (2020-07-23)
 
 -   Fixed "security group does not exist" issue when deploying .NET Core applications to Beanstalk that use an RDS security group
