@@ -1,3 +1,9 @@
+## 1.20.0.0 (2020-12-01)
+
+- **Feature** Container Image Support in Lambda: A new Lambda Project is available to create Image based Lambda functions (Visual Studio 2019 only)
+- **Feature** Container Image Support in Lambda: Deploy Image-based Lambda functions to AWS Lambda
+- **Feature** Added .NET Lambda Test Tool support for .NET 5 Lambda function projects
+
 ## 1.19.0.0 (2020-11-23)
 
 - **Bug Fix** The AWS .NET Mock Lambda Test Tool is now configured in launchSettings.json with a location based on %USERPROFILE% instead of %USERNAME%
