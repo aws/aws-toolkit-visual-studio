@@ -1,4 +1,4 @@
-## 1.20.0.0 (2020-12-01)
+﻿## 1.20.0.0 (2020-12-01)
 
 - **Feature** Container Image Support in Lambda: A new Lambda Project is available to create Image based Lambda functions (Visual Studio 2019 only)
 - **Feature** Container Image Support in Lambda: Deploy Image-based Lambda functions to AWS Lambda
@@ -499,7 +499,7 @@
 
 ## 1.9.0.0 (2015-03-05)
 
--   Added support for testing and deploying AWS Lambda functions. This requires that the Node.js Tools are installed. For more information: http://blogs.aws.amazon.com/net/post/Tx381XNNQALP8BA/
+-   Added support for testing and deploying AWS Lambda functions. This requires that the Node.js Tools are installed. For more information: https://blogs.aws.amazon.com/net/post/Tx381XNNQALP8BA/
 -   Added support to Amazon S3 bucket properties to configure event notifications.
 
 ## 1.8.2.1 (2015-02-10)
