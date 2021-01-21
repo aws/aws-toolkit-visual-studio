@@ -1,4 +1,14 @@
-﻿## 1.20.0.0 (2020-12-01)
+## 1.20.1.0 (2021-01-21)
+
+- **Bug Fix** Fixed ECS Cluster View Panel to show scheduled tasks registered with the cluster being viewed.
+- **Bug Fix** Fixed issue where incorrect tag value was saved in the defaults file when Docker Repository name contained a `/`
+- **Deprecation** Updated all references of the deprecated AWSLambdaFullAccess and AWSLambdaReadOnlyAccess managed policies to AWSLambda_FullAccess and AWSLambda_ReadOnlyAccess.
+- **Feature** Upload Lambda Function dialog now filters the existing function list based on selected package type.
+- **Feature** Source account is now included in the event source policy when creating S3 event sources for Lambda functions.
+- **Feature** Added ability in Publish Container to AWS wizard to load previous deployment settings stored in aws-ecs-tools-defaults.json 
+- **Feature** Added support to deploy fargate based scheduled tasks on ECS cluster.
+
+## 1.20.0.0 (2020-12-01)
 
 - **Feature** Container Image Support in Lambda: A new Lambda Project is available to create Image based Lambda functions (Visual Studio 2019 only)
 - **Feature** Container Image Support in Lambda: Deploy Image-based Lambda functions to AWS Lambda
