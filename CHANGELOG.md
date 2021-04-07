@@ -1,3 +1,12 @@
+## 1.20.2.0 (2021-04-07)
+
+- **Bug Fix** Improved the legibility of the Template tab in the CloudFormation stack viewer
+- **Bug Fix** Fixed issue where yaml based CloudFormation templates could not be deployed when they contained short form notation
+- **Bug Fix** Fixed issue where CloudFormation Stacks could not be viewed from AWS Explorer when they contained yaml short form notation
+- **Deprecation** IAM Roles created when deploying to Beanstalk will now reference the managed policy AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy instead of AWSElasticBeanstalkService, which is deprecated. Users are encouraged to update any roles having the deprecated managed policy AWSElasticBeanstalkService. For more information, please see - https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/security-iam-awsmanpol.html
+- **Feature** Source account is now included in the resource policy when creating event notifications for S3 buckets.
+- **Removal** Removed optional account number field from credential profile dialogs.
+
 ## 1.20.1.0 (2021-01-21)
 
 - **Bug Fix** Fixed ECS Cluster View Panel to show scheduled tasks registered with the cluster being viewed.
