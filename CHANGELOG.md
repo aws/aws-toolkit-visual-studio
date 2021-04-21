@@ -1,3 +1,13 @@
+## 1.21.0.0 (2021-04-21)
+
+- **Breaking Change** Support for working in region sets (aka Partitions) like GovCloud or China has changed. If your account is based in a different partition (like GovCloud or China), you will need to set the `region` field in your credentials profile so that the Toolkit is able to work with the proper set of regions. Previously, this was adjusted using the 'Account Type' field in the add/edit Profile dialog.
+- **Breaking Change** A change was made to the way the Toolkit records which account is used by the AWS Explorer. The first time you launch the Toolkit after updating, the AWS Explorer will not automatically select the account you used previously.
+- **Feature** Added support for AWS SSO based credential profiles. Selecting credentials based on AWS SSO will open a prompt to launch a browser-based SSO Login.
+- **Feature** Added support for credential profiles that assume a role and use MFA. Selecting credentials that use MFA will prompt for an MFA code.
+- **Feature** The Toolkit makes a validation check when changing the currently active credentials and region. Validation messages are shown while a validation is in progress, and if the validation check fails.
+- **Feature** When credentials profiles are loaded by the Toolkit, the Output pane indicates how many profiles were loaded, and which profiles are unsupported/invalid. The Toolkit logs contain details to diagnose why a profile cannot be used.
+- **Feature** The Toolkit now shows all supported credential profiles in the AWS Explorer. Previously, the Toolkit would list a subset of credentials based on a de-duplication of the access key.
+
 ## 1.20.2.0 (2021-04-07)
 
 - **Bug Fix** Improved the legibility of the Template tab in the CloudFormation stack viewer
