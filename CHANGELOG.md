@@ -1,3 +1,9 @@
+## 1.21.1.0 (2021-04-23)
+
+- **Bug Fix** Fixed an issue introduced in the previous version where TeamExplorer events were excessively written to the Toolkit log
+- **Bug Fix** Fixed an issue where the toolkit would fail to start when the Shared Credentials file directory "%USERPROFILE%/.aws" was absent. The toolkit now creates the directory if absent on startup.
+- **Feature** For performance reasons, the AWS Explorer no longer automatically connects to credential_process based credentials on startup. Instead, a link to log in is shown in the AWS Explorer.
+
 ## 1.21.0.0 (2021-04-21)
 
 - **Breaking Change** Support for working in region sets (aka Partitions) like GovCloud or China has changed. If your account is based in a different partition (like GovCloud or China), you will need to set the `region` field in your credentials profile so that the Toolkit is able to work with the proper set of regions. Previously, this was adjusted using the 'Account Type' field in the add/edit Profile dialog.
