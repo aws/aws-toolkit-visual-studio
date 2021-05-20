@@ -1,3 +1,10 @@
+## 1.21.2.0 (2021-05-20)
+
+- **Bug Fix** Fixed an issue where the toolkit had initialization failures when the development environment did not have access to Windows Encrypted Store.
+- **Bug Fix** The EC2 Quick Launch dialog dropdowns for Security Group and IAM Role are now sorted.
+- **Bug Fix** IAM Role Dropdowns in the deployment dialogs for Lambda and ECS are now sorted.
+- **Bug Fix** Fixed an issue introduced in the previous version where the Toolkit was unable to resolve SAML based profiles.
+
 ## 1.21.1.0 (2021-04-23)
 
 - **Bug Fix** Fixed an issue introduced in the previous version where TeamExplorer events were excessively written to the Toolkit log
