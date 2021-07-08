@@ -1,3 +1,10 @@
+## 1.21.3.0 (2021-07-08)
+
+- **Bug Fix** Fixed issue in the Create/Edit Profile dialog box where importing from a CSV file would not update the UI.
+- **Bug Fix** Lambda Test tool is now set up when Visual Studio launches and immediately loads a solution
+- **Feature** The Toolkit's User Guide can now be accessed from the "AWS Toolkit" menu, located in the "Extensions" menu ("Tools" menu in Visual Studio 2017)
+- **Feature** Added a menu item to report a bug or make a feature request, available from the "AWS Toolkit" menu, located in the "Extensions" menu ("Tools" menu in Visual Studio 2017)
+
 ## 1.21.2.0 (2021-05-20)
 
 - **Bug Fix** Fixed an issue where the toolkit had initialization failures when the development environment did not have access to Windows Encrypted Store.
