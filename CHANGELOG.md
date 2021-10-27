@@ -1,3 +1,7 @@
+## 1.23.0.1 (2021-10-26)
+
+- **Feature** This release of the Toolkit includes an updated signing certificate, so that the VSIX installation process does not show an error message.
+
 ## 1.23.0.0 (2021-10-21)
 
 - **Bug Fix** Fixed an issue where autocompletion in CloudFormation templates would replace too much text
