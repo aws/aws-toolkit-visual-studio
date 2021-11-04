@@ -1,3 +1,8 @@
+## 1.23.1.0 (2021-11-04)
+
+- **Feature** Adding hyperlink to help guide installation of missing system dependencies in the New Publish Experience.
+- **Feature** A preview version of the AWS Toolkit is now available for Visual Studio 2022 from the Marketplace. It is a separate extension from the AWS Toolkit for Visual Studio 2017 and 2019. Not all of the Toolkit functionality is available in this version - see https://github.com/aws/aws-toolkit-visual-studio/issues/167 for details.
+
 ## 1.23.0.1 (2021-10-26)
 
 - **Feature** This release of the Toolkit includes an updated signing certificate, so that the VSIX installation process does not show an error message.
