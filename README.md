@@ -3,7 +3,7 @@
 The AWS Toolkit for Visual Studio is an extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using Amazon Web Services, allowing you to get started faster and be more productive.
 
 The extension can be found on the Visual Studio Marketplace:
-* [AWS Toolkit for Visual Studio 2017 and 2019](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)
+* [AWS Toolkit for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)
 * [AWS Toolkit for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2022)
 
 See the [user guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html) for information on how to get started.
@@ -12,7 +12,7 @@ See the [user guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/lates
 
 ## Supported Visual Studio Versions
 
-The AWS Toolkit for Visual Studio supports Visual Studio 2017, 2019, and 2022.
+The AWS Toolkit for Visual Studio supports Visual Studio 2019, and 2022.  For legacy versions of the toolkit that are no longer supported, see https://aws.amazon.com/visualstudio.
 
 ## Highlighted Features
 
