@@ -1,3 +1,11 @@
+## 1.30.0.0 (2022-06-01)
+
+- **Bug Fix** Fix issue where clicking different targets in the Publish to AWS experience could show the configuration for an older selection
+- **Bug Fix** Fix issue in Publish to AWS where Docker and Build settings were not used during the publish.
+- **Feature** Add Publish to AWS validation check for scenario where a new deployment would re-use the name of an existing deployment.
+- **Feature** Updated the Publish to AWS view where deployment targets are listed, so that more of the list can be displayed on the screen.
+- **Feature** Updated the Publish to AWS view where deployment settings can be edited. Settings are grouped by category, and a side-bar allows for quick navigation to a category. The width of this view has also been constrained, so that it is easier to work with on systems with a wider display.
+
 ## 1.29.0.0 (2022-05-16)
 
 - **Bug Fix** Fix DynamoDB Local connection failure when using a non-basic default credentials profile (SSO or MFA for example)
