@@ -1,3 +1,7 @@
+## 1.32.0.0 (2022-06-17)
+
+- **Feature** Publish to AWS has been updated to use v0.47.26 of the AWS .NET deploy tool. It contains new validation checks to help prevent deployment failures - https://github.com/aws/aws-dotnet-deploy/releases/tag/0.47.26
+
 ## 1.31.0.0 (2022-06-07)
 
 - **Bug Fix** Fix scenario in Publish to AWS where invalid setting values would revert to a previous valid value while the settings were still being edited.
