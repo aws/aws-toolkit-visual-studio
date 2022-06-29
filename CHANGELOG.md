@@ -1,3 +1,10 @@
+## 1.33.0.0 (2022-06-29)
+
+- **Bug Fix** Fixes issues with navigating, copying, and pasting to/from S3 paths that contain no-name directories.  See https://github.com/aws/aws-toolkit-visual-studio/issues/248
+- **Feature** A link to the Troubleshooting Guide is now shown in the Publish to AWS experience when a deployment fails.
+- **Feature** Amazon CloudWatch Logs Support: View, filter and store CloudWatch Logs resources from the AWS Explorer.
+- **Feature** Added support to view CloudWatch Logs for Lambda functions and ECS Tasks.
+
 ## 1.32.0.0 (2022-06-17)
 
 - **Feature** Publish to AWS has been updated to use v0.47.26 of the AWS .NET deploy tool. It contains new validation checks to help prevent deployment failures - https://github.com/aws/aws-dotnet-deploy/releases/tag/0.47.26
