@@ -1,3 +1,11 @@
+## 1.35.2.0 (2022-08-24)
+
+- **Bug Fix** Categories are now ordered as intended when editing settings in Publish to AWS.
+- **Bug Fix** Publish to AWS has been updated to use v1.2.4 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes: https://github.com/aws/aws-dotnet-deploy/releases/tag/1.2.4 , https://github.com/aws/aws-dotnet-deploy/releases/tag/1.1.15 .
+- **Bug Fix** A bug has been fixed in Publish to AWS when publishing a project to an existing Fargate target, where the Fargate target was previously published using a pre-GA version of Publish to AWS. If the target was configured with multiple security groups, trying to select it would log an 'Unexpected character encountered while parsing value: s.' error. Now, you can re-publish your project to this target, but you need to reconfigure the security groups setting. The setting will display a validation message in the 'Edit Settings' view if reconfiguration is needed. (Fixed in Deploy Tool v1.1.15)
+- **Bug Fix** Fix issue preventing Publish to AWS from publishing to a Fargate target when working with a region that does not have a default VPC. Previously, this would log an `Unexpected character encountered while parsing value: s. Path '', line 0, position 0` error (Fixed in Deploy Tool v1.2.4)
+- **Feature** Searching CloudWatch log events has been improved, so that filtered events are automatically loaded. Previously, you would have to occasionally click on a link in order to retrieve the first screenful of events.
+
 ## 1.35.1.0 (2022-07-25)
 
 - **Bug Fix** CodeArtifact NuGet credential provider has been improved to reduce the amount of times it falls back to a standard basic authentication dialog.
