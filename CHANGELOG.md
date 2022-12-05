@@ -1,3 +1,7 @@
+## 1.38.0.0 (2022-12-02)
+
+- **Feature** Added support for cloning Amazon CodeCatalyst source repositories from Visual Studio's 'Clone a Repository' dialog
+
 ## 1.37.0.0 (2022-11-07)
 
 - **Breaking Change** The AWS Toolkit now produces log files for each running instance of Visual Studio. This allows concurrent running instances of Visual Studio to have their own unique Toolkit log file. Previously, the first running instance of Visual Studio would append its logs to the same log file. Log files are now produced in `%localappdata%/AWSToolkit/logs/visualstudio/(VisualStudioVersion)`, and are named based on the date and time when Visual Studio was opened.
