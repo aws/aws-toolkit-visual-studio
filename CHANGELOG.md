@@ -1,3 +1,7 @@
+## 1.40.0.0 (2023-03-10)
+
+- **Feature** Publish to AWS has been updated to use v1.11.6 of the AWS .NET deploy tool. This version fixes an issue where deployed .NET systems would not know the correct heap size. See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.11.6 for more details.
+
 ## 1.39.0.0 (2023-02-10)
 
 - **Breaking Change** When connecting to AWS IAM Identity Center (formerly AWS SSO) and AWS Builder ID, it is now necessary to copy a user code from the Toolkit login dialog and paste it into the login page that is opened in the browser. This change helps to ensure that the browser-based login request is associated with actions being performed in the Toolkit.
