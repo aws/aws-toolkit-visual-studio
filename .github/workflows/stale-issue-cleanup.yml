@@ -2,10 +2,10 @@ name: "Close stale issues"
 
 # Controls when the action will run.
 on:
-  # allows doing a manual trigger of the action and running it on a schedule at midnight everyday
+  # allows doing a manual trigger of the action and running it on a schedule at 10am PT  everyday(converted since expression is anchored to UTC)
   workflow_dispatch: 
   schedule:
-   - cron: "0 0 * * *"
+   - cron: "0 17 * * *"
 
 permissions: {}
 jobs:
