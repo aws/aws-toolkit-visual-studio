@@ -15,7 +15,7 @@ jobs:
       issues: write # to label, comment and close issues (aws-actions/stale-issue-cleanup)
      
     runs-on: ubuntu-latest
-    name: Stale issue job
+    name: Stale issues
     steps:
     - uses: aws-actions/stale-issue-cleanup@v6
       with:
@@ -23,9 +23,9 @@ jobs:
         issue-types: issues
         # Setting messages to an empty string will cause the automation to skip
         # that category
-        stale-issue-message: This issue has not received a response in 30 days and will be closed in 7 days. If you want to keep this issue open, please leave a comment below and auto-close will be canceled.
+        stale-issue-message: This issue is missing required information and will be closed in 7 days. To keep the issue open, leave a comment.
         # this has been added as a placeholder but will likely not be used because the timeline is set as 100 years
-        ancient-issue-message: We have noticed this issue has not received attention in 1 year. We will close this issue for now. If you think this is in error, please feel free to comment and reopen the issue.
+        ancient-issue-message: This issue will automatically close because it has stalled for 1 year. To keep the issue open, leave a comment.
        
         # These labels are required
         stale-issue-label: closing-soon
