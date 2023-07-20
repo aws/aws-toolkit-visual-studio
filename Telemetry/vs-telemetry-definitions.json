@@ -1,1 +1,183 @@
-{}
+﻿{
+    "types": [
+        {
+            "name": "codeartifactPackageType",
+            "type": "string",
+            "description": "The CodeArtifact package type"
+        },
+        {
+            "name": "published",
+            "type": "boolean",
+            "description": "Whether or not the user published an application"
+        },
+        {
+            "name": "applicationType",
+            "type": "string",
+            "description": "The type of application being published"
+        },
+        {
+            "name": "errorCode",
+            "type": "string",
+            "description": "The error code associated with an operation"
+        },
+        {
+            "name": "initialPublish",
+            "type": "boolean",
+            "description": "Whether this was the initial publish or a republish"
+        },
+        {
+            "name": "defaultConfiguration",
+            "type": "boolean",
+            "description": "Whether or not the default configuration values were used. False if at least one value was adjusted"
+        },
+        {
+            "name": "recommendedTarget",
+            "type": "boolean",
+            "description": "Whether or not the recommended deployment target was used (initial publish only)"
+        },
+        {
+            "name": "recipeId",
+            "type": "string",
+            "description": "The recipe used for the deployment"
+        },
+        {
+            "name": "isGeneratedProject",
+            "type": "boolean",
+            "description": "Whether or not the referenced project was generated"
+        },
+        {
+            "name": "publishSettingType",
+            "type": "string",
+            "description": "The type of a particular configuration setting/detail"
+        },
+        {
+            "name": "publishInstallCliMode",
+            "type": "string",
+            "allowedValues": ["install", "upgrade", "noop"],
+            "description": "The operation that occurred when an attempt was made to download the CLI"
+        },
+        {
+            "name": "publishSetupStage",
+            "type": "string",
+            "allowedValues": ["install", "validate", "initialize", "show", "all"],
+            "description": "Represents a phase of the publish experience startup sequence"
+        }
+    ],
+    "metrics": [
+        {
+            "name": "serverlessapplication_deploy",
+            "description": "Called when deploying a Serverless Application Project",
+            "metadata": [ 
+                { "type": "result" },
+                { "type": "duration" },
+                { "type": "serviceType", "required": false },
+                { "type": "source" , "required": false}
+            ]
+        },
+        {
+            "name": "serverlessapplication_publishWizard",
+            "description": "Called when user completes a Serverless Application publish wizard",
+            "metadata": [
+                { "type": "result" },
+                { "type": "duration" },
+                { "type": "serviceType", "required": false },
+                { "type": "source" , "required": false}
+            ]
+        },
+        {
+            "name": "codeartifact_credentialsRequest",
+            "description": "Called when Visual Studio requests credentials from the Toolkit in order to communicate with a CodeArtifact package repository",
+            "passive": true,
+            "metadata": [
+                { "type": "result" },
+                { "type": "reason", "required": false }
+            ]
+        },
+        {
+            "name": "codeartifact_getRepoUrl",
+            "description": "Called when user selects a profile",
+            "metadata": [
+                { "type": "result" },
+                { "type": "codeartifactPackageType" }
+            ]
+        },
+        {
+            "name": "codeartifact_setRepoCredentialProfile",
+            "description": "Called when user get an endpoint url",
+            "metadata": [
+                { "type": "result" },
+                { "type": "codeartifactPackageType" }
+            ]
+        },
+        {
+            "name": "publish_start",
+            "description": "Called when user starts the Publish to AWS workflow",
+            "metadata": [ 
+                { "type": "result" }, 
+                { "type": "source", "required": false } 
+            ]
+        },
+        {
+            "name": "publish_end",
+            "description": "Called when user exits the Publish to AWS workflow",
+            "metadata": [
+                { "type": "published" },
+                { "type": "duration" }
+            ]
+        },
+        {
+            "name": "publish_deploy",
+            "description": "Called when user publishes the project",
+            "metadata": [
+                { "type": "result" },
+                { "type": "framework", "required": false },
+                { "type": "duration" },
+                { "type": "applicationType", "required": false },
+                { "type": "initialPublish" },
+                { "type": "defaultConfiguration" },
+                { "type": "recommendedTarget", "required": false },
+                { "type": "recipeId" },
+                { "type": "isGeneratedProject", "required": false },
+                { "type": "errorCode", "required": false },
+                { "type": "reason", "required": false }
+            ] 
+        },
+        {
+            "name": "publish_setup",
+            "description": "Starting the Publish to AWS experience",
+            "passive": true,
+            "unit": "Milliseconds",            
+            "metadata": [
+                { "type": "result" },
+                { "type": "duration" },
+                { "type": "publishSetupStage" },
+                { "type": "publishInstallCliMode", "required": false },
+                { "type": "errorCode", "required": false }
+            ] 
+        },
+        {
+            "name": "publish_unsupportedSetting",
+            "description": "Called when user exits the publish workflow to record unsupported setting types",
+            "metadata": [
+                { "type": "recipeId" },
+                { "type": "publishSettingType" }
+            ]
+        },
+        {
+            "name": "lambda_iamRoleCleanup",
+            "description": "Called when cleaning up IAM Role trusted policy",
+            "metadata": [
+                { "type": "result" },
+                { "type": "reason" }
+            ]
+        },
+        {
+            "name": "lambda_addEvent",
+            "description": "Called when adding an event to a lambda function",
+            "metadata": [
+                { "type": "result" },
+                { "type": "variant" }
+            ] 
+        }
+    ]
+}
