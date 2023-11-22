@@ -61,6 +61,23 @@
             "type": "string",
             "allowedValues": ["install", "validate", "initialize", "show", "all"],
             "description": "Represents a phase of the publish experience startup sequence"
+        },
+        {
+            "name": "languageServerSetupStage",
+            "type": "string",
+            "allowedValues": [ "getManifest", "getServer", "initialize", "all" ],
+            "description": "Represents a phase of the language server startup sequence"
+        },
+        {
+            "name": "manifestSchemaVersion",
+            "type": "string",
+            "description": "Represents the version of the manifest schema associated with the language server"
+        },
+        {
+            "name": "languageServerLocation",
+            "type": "string",
+            "allowedValues": [ "remote", "cache", "override", "fallback" ],
+            "description": "Represents the location where the language server is installed from"
         }
     ],
     "metrics": [
@@ -178,6 +195,30 @@
                 { "type": "result" },
                 { "type": "variant" }
             ] 
+        },
+        {
+            "name": "languageServer_setup",
+            "description": "Sets up a language server",
+            "passive": true,
+            "unit": "Milliseconds",
+            "metadata": [
+                { "type": "result" },
+                { "type": "id" },
+                { "type": "duration" },
+                { "type": "languageServerSetupStage" },
+                {
+                    "type": "version",
+                    "required": false
+                },
+                {
+                    "type": "languageServerLocation",
+                    "required": false
+                },
+                {
+                    "type": "manifestSchemaVersion",
+                    "required": false
+                }
+            ]
         }
     ]
 }
