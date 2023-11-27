@@ -1,3 +1,8 @@
+## 1.45.0.0 (2023-11-22)
+
+- **Breaking Change** From this version on, AWS Toolkit for Visual Studio 2022 requires a minimum Visual Studio version of 17.7.
+- **Feature** Added Preview support for Amazon CodeWhisperer - your AI coding companion. See https://aws.amazon.com/codewhisperer/ to learn more.
+
 ## 1.44.0.0 (2023-11-14)
 
 - **Bug Fix** Fix a source of "Unknown error converting pem to ppk file" issues when making SSH connections to EC2 instances
