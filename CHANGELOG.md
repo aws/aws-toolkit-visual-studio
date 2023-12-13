@@ -1,3 +1,7 @@
+## 1.46.0.0 (2023-12-12)
+
+- **Feature** CodeWhisperer suggestions can now be provided for C and C++ files (.c, .h, .cpp, and .hpp extensions)
+
 ## 1.45.0.0 (2023-11-22)
 
 - **Breaking Change** From this version on, AWS Toolkit for Visual Studio 2022 requires a minimum Visual Studio version of 17.7.
