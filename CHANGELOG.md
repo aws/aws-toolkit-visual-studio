@@ -1,3 +1,8 @@
+## 1.48.0.0 (2024-02-22)
+
+- **Feature** Added support for using container builds with Lambda when targeting .NET 8
+- **Feature**  Add support for publishing Lambda functions using the .NET 8 managed runtime
+
 ## 1.47.0.0 (2024-02-08)
 
 - **Bug Fix** Fix "Bucket is not in the same region" validation in Serverless deployment dialog when working with buckets in eu-west-1.
