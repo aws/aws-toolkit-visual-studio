@@ -1,3 +1,8 @@
+## 1.49.0.0 (2024-03-07)
+
+- **Bug Fix** Fixed issue with not building Lambda container image for ARM when function architecture is configured for ARM
+- **Feature** Publish to AWS has been updated to use v1.18.6 of the AWS .NET deploy tool. Projects can now be deployed to Elastic Beanstalk on Linux using the '.NET 6 on AL2023' platform. See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.18.6 for more details.
+
 ## 1.48.0.0 (2024-02-22)
 
 - **Feature** Added support for using container builds with Lambda when targeting .NET 8
