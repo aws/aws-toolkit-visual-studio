@@ -1,3 +1,14 @@
+## 1.50.0.0 (2024-03-28)
+
+- **Bug Fix** Fix issue where IAM IdC sign-ins for non-US sign-in portals would not automatically refresh when using CodeWhisperer
+- **Deprecation** Removed the nodejs12.x runtime from Lambda deployment dialogs. This runtime has reached end of support. See https://docs.aws.amazon.com/lambda/latest/dg/runtime-support-policy.html for more details.
+- **Feature** * Publish to AWS has been updated to use v1.19.13 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Security group settings now show the group name in addition to the group id
+  - Fix deprecated Lambda runtime failure when deploying Blazor projects
+  - Blazor WebAssembly deployments now allow CloudFront to write to the access log S3 bucket
+  - See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.19.13 for more details.
+- **Removal** Removed Node.js related AWS Lambda Project Templates
+
 ## 1.49.0.0 (2024-03-07)
 
 - **Bug Fix** Fixed issue with not building Lambda container image for ARM when function architecture is configured for ARM
