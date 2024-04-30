@@ -1,3 +1,7 @@
+## 1.51.0.0 (2024-04-29)
+
+- **Feature** Amazon CodeWhisperer functionality is now part of Amazon Q Developer. All existing CodeWhisperer features will continue to function including inline code suggestions.
+
 ## 1.50.0.0 (2024-03-28)
 
 - **Bug Fix** Fix issue where IAM IdC sign-ins for non-US sign-in portals would not automatically refresh when using CodeWhisperer
