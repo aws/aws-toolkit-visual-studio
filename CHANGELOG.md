@@ -1,3 +1,7 @@
+## 1.52.0.0 (2024-05-09)
+
+- **Bug Fix** Fix issue where Amazon Q inline suggestions would appear over-indented
+
 ## 1.51.0.0 (2024-04-29)
 
 - **Feature** Amazon CodeWhisperer functionality is now part of Amazon Q Developer. All existing CodeWhisperer features will continue to function including inline code suggestions.
