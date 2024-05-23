@@ -1,3 +1,7 @@
+## 1.53.0.0 (2024-05-23)
+
+- **Feature** The AWS Builder Id and IAM Identity Center (SSO) login flow has been improved to support authorization code + PKCE in supported regions.  This new flow simplifies the login process by eliminating the need to verify a code while remaining secure.  The device code flow will continue to be used in regions that do not support the authorization code + PKCE flow.
+
 ## 1.52.0.0 (2024-05-09)
 
 - **Bug Fix** Fix issue where Amazon Q inline suggestions would appear over-indented
