@@ -46,6 +46,12 @@
             "description": "Whether or not the referenced project was generated"
         },
         {
+            "name": "qChatErrorState",
+            "type": "string",
+            "allowedValues": ["qDisabled", "chatAssetMissing", "webViewMissing", "chatServerNotRunning", "chatServerStarting", "authRequired", "reAuthRequired"],
+            "description": "Represents the error states shown in the Amazon Q chat panel when certain requirements are missing"
+        },
+        {
             "name": "publishSettingType",
             "type": "string",
             "description": "The type of a particular configuration setting/detail"
@@ -81,6 +87,40 @@
         }
     ],
     "metrics": [
+        {
+            "name": "auth_signInToAmazonQDialogOpened",
+            "description": "Called when the Amazon Q sign in dialog is opened",
+            "metadata": [
+                { "type": "source" }
+            ],
+            "passive": true
+        },
+        {
+            "name": "auth_signInToAmazonQDialogClosed",
+            "description": "Called when the Amazon Q sign in dialog is closed",
+            "metadata": [],
+            "passive": true
+        },
+        {
+            "name": "amazonq_closeChat",
+            "description": "When Amazon Q chat panel is closed"
+        },
+        {
+            "name": "amazonq_viewChat",
+            "description": "Called when the view in Amazon Q chat panel transitions to show different states for e.g. auth screen, chat UI etc",
+            "metadata": [ 
+                { "type": "result" },
+                { "type": "qChatErrorState", "required": false }
+            ],
+            "passive": true
+        },
+        {
+            "name": "amazonq_openChat",
+            "description": "When users open Amazon Q chat panel",
+            "metadata": [ 
+                { "type": "result" }
+            ]
+        },
         {
             "name": "serverlessapplication_deploy",
             "description": "Called when deploying a Serverless Application Project",
