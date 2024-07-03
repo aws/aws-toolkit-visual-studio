@@ -1,3 +1,7 @@
+## 1.54.0.1 (2024-07-03)
+
+- **Bug Fix** Added safeguards to extension start-up based on issues reported in version 1.54.0.0 (https://github.com/aws/aws-toolkit-visual-studio/issues/441)
+
 ## 1.54.0.0 (2024-07-02)
 
 - **Feature** Amazon Q is now generally available for Visual Studio 2022. Use Amazon Q Chat to help author, explain, refactor, fix, and optimize code. Run security scans on C# code to catch security vulnerabilities.
