@@ -1,3 +1,8 @@
+## 1.55.0.0 (2024-07-11)
+
+- **Bug Fix** Fix issue where settings could be overwritten when navigating between different settings pages
+- **Deprecation** This is the last planned AWS Toolkit release for Visual Studio 2019. You are encouraged to run Visual Studio 2022, and the corresponding AWS Toolkit extension. An info bar has been added to the Toolkit as a reminder - see https://github.com/aws/aws-toolkit-visual-studio/issues/447 for details.
+
 ## 1.54.0.1 (2024-07-03)
 
 - **Bug Fix** Added safeguards to extension start-up based on issues reported in version 1.54.0.0 (https://github.com/aws/aws-toolkit-visual-studio/issues/441)
