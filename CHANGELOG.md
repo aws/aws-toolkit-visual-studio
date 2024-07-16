@@ -1,3 +1,7 @@
+## 1.55.1.0 (2024-07-16)
+
+- **Bug Fix** Added more safeguards to extension start-up based on issues reported in version 1.54.0.0 (https://github.com/aws/aws-toolkit-visual-studio/issues/441)
+
 ## 1.55.0.0 (2024-07-11)
 
 - **Bug Fix** Fix issue where settings could be overwritten when navigating between different settings pages
