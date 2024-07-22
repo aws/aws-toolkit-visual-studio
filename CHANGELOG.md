@@ -1,3 +1,8 @@
+## 1.55.2.0 (2024-07-22)
+
+- **Bug Fix** Fix "Unable to find an entry point named '?' in DLL 'WebView2Loader.dll" error when attempting to view Amazon Q Chat.
+- **Bug Fix** Performance improvements in the Publish to AWS deployment configuration screens
+
 ## 1.55.1.0 (2024-07-16)
 
 - **Bug Fix** Added more safeguards to extension start-up based on issues reported in version 1.54.0.0 (https://github.com/aws/aws-toolkit-visual-studio/issues/441)
