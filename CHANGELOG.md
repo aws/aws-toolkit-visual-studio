@@ -1,3 +1,12 @@
+## 1.56.0.0 (2024-08-01)
+
+- **Feature** * Publish to AWS has been updated to use v1.22.5 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Performance improvements when editing deployment configurations.
+  - When configuring a deployment to an existing target, fewer fields will be shown when they cannot be adjusted.
+  - Add support for choosing between a "Public" and an "Internal" Load Balancer when deploying an Elastic Beanstalk application into a VPC
+  - See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.20.8, https://github.com/aws/aws-dotnet-deploy/releases/tag/1.21.13, and https://github.com/aws/aws-dotnet-deploy/releases/tag/1.22.5 for more details.
+- **Feature** When Amazon Q is generating an inline suggestion, a progress indicator is now shown next to the Q icon in the margin.
+
 ## 1.55.2.0 (2024-07-22)
 
 - **Bug Fix** Fix "Unable to find an entry point named '?' in DLL 'WebView2Loader.dll" error when attempting to view Amazon Q Chat.
