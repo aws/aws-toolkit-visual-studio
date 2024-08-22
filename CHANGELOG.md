@@ -1,3 +1,8 @@
+## 1.57.0.0 (2024-08-22)
+
+- **Bug Fix** Amazon Q Chat now uses the currently active code document as context. This makes it easier to ask questions about your code without needing to add it to your prompt.
+- **Feature** When Amazon Q is running a security scan, a progress indicator is now shown next to the Q icon in the margin.
+
 ## 1.56.0.0 (2024-08-01)
 
 - **Feature** * Publish to AWS has been updated to use v1.22.5 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
