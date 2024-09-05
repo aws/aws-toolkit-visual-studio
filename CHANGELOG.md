@@ -1,3 +1,10 @@
+## 1.58.0.0 (2024-09-05)
+
+- **Feature** Publish to AWS has been updated to use v1.24.4 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+ - Projects can now be deployed to Elastic Beanstalk without requiring self-contained builds.
+ - Fix deployment failure when System.Text.Json detects a dependency that has a listed vulnerability.
+ - See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.23.4 and https://github.com/aws/aws-dotnet-deploy/releases/tag/1.24.4 for more details.
+
 ## 1.57.0.0 (2024-08-22)
 
 - **Bug Fix** Amazon Q Chat now uses the currently active code document as context. This makes it easier to ask questions about your code without needing to add it to your prompt.
