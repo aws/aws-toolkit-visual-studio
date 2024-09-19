@@ -1,3 +1,8 @@
+## 1.58.1.0 (2024-09-19)
+
+- **Bug Fix** Performance improvements when automatically generating inline code suggestions with Amazon Q.
+- **Bug Fix** Troubleshooting instructions to fix extension start-up issues reported since version 1.54.0.0 (https://github.com/aws/aws-toolkit-visual-studio/issues/452) is now listed in the output window. An info bar has been added to the toolkit as a reminder: see [guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/general-troubleshoot.html#general-troubleshoot-component-initilization) for details.
+
 ## 1.58.0.0 (2024-09-05)
 
 - **Feature** Publish to AWS has been updated to use v1.24.4 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
