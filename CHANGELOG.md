@@ -1,3 +1,15 @@
+## 1.59.0.0 (2024-10-24)
+
+- **Bug Fix** Fix a bug that could cause the IDE to freeze during startup
+- **Feature** The extension's Getting Started experience has been improved:
+  - Added ability to enable and disable AWS Toolkit and Amazon Q feature sets. This allows control over which parts of the extension are integrated with Visual Studio.
+  - The Getting Started experience is automatically displayed the first time Visual Studio is launched after installing this version (or a newer version).
+  - Added option to access the Getting Started experience at any time from the "Extensions" > "AWS Toolkit" > "Getting Started" menus.
+- **Feature** Publish to AWS has been updated to use v1.26.1 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Fixed container deployment failures on Apple silicon by ensuring X64 platform specification.
+  - Addressed deployment failures caused by System.Text.Json issues by pinning the version to mitigate .NET 9 bugs.
+  - See https://github.com/aws/aws-dotnet-deploy/releases/tag/1.25.3, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2024-09-27 and https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2024-10-11 for more details.
+
 ## 1.58.1.0 (2024-09-19)
 
 - **Bug Fix** Performance improvements when automatically generating inline code suggestions with Amazon Q.
