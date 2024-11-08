@@ -1,3 +1,20 @@
+## 1.60.0.0 (2024-11-08)
+
+- **Bug Fix** Fixed issue where SSO prompt could appear when disabling the Amazon Q feature in the Getting Started experience.
+- **Feature** Publish to AWS has been updated to use v1.27.0 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Added support for .NET 9 in deployment recipes.
+  - Added ability to configure EC2 IMDSv1 access for the Windows and Linux Elastic Beanstalk recipes.
+  - Support Elastic Beanstalk's transition to using EC2 Launch Templates from the deprecated Launch Configuration. This is required for AWS accounts created after October 1st 2024.
+- **Feature** Pull in latest changes of Amazon.ECS.Tools for ECS deployment:
+  - Fixed values for task-definition-volumes and container-mount-points properties not correctly being parsed.
+- **Feature** Pull in latest changes of Amazon.ElasticBeanstalk.Tools for Elastic deployment:
+  - Added ability to disable IMDS v1 by setting the disable-imds-v1 property in the aws-beanstalk-tools-defaults.json.
+- **Feature** Pull in latest changes of Amazon.Lambda.Tools for Lambda deployment:
+  - Add the log-format, log-application-level, log-system-level and log-group properties that can be set in the aws-lambda-tools-defaults.json file.
+  - Fixed an issue where CodeUri set in Globals section is ignored for AWS::Serverless::Function resource.
+  - Update the dependencies for the embedded zipping utility used to set file permissions correctly when creating deployment bundles on Windows.
+  - Fixed issue with the configured architecture of the Lambda function not being used when building the container image. This caused images to be built for X64 when the function was configured for ARM64.
+
 ## 1.59.0.0 (2024-10-24)
 
 - **Bug Fix** Fix a bug that could cause the IDE to freeze during startup
