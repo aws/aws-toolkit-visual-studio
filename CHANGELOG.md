@@ -1,3 +1,7 @@
+## 1.60.0.1 (2024-11-15)
+
+- **Bug Fix** Fix Amazon Q features not working in Visual Studio v17.12 - https://github.com/aws/aws-toolkit-visual-studio/issues/478
+
 ## 1.60.0.0 (2024-11-08)
 
 - **Bug Fix** Fixed issue where SSO prompt could appear when disabling the Amazon Q feature in the Getting Started experience.
