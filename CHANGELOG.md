@@ -1,3 +1,7 @@
+## 1.61.0.0 (2024-12-03)
+
+- **Feature** Add support for "Amazon Q Developer transform for .NET". You can now port your .NET Framework applications to cross-platform .NET.
+
 ## 1.60.0.1 (2024-11-15)
 
 - **Bug Fix** Fix Amazon Q features not working in Visual Studio v17.12 - https://github.com/aws/aws-toolkit-visual-studio/issues/478
