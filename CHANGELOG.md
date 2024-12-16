@@ -1,3 +1,8 @@
+## 1.62.0.0 (2024-12-16)
+
+- **Bug Fix** The confirmation dialog now shows the full url when clicking a link from Q Chat
+- **Feature** Added support for additional languages in Amazon Q. This version of the Toolkit introduces support for the following languages: JSON, SQL, PowerShell, and Bash scripts.
+
 ## 1.61.0.0 (2024-12-03)
 
 - **Feature** Add support for "Amazon Q Developer transform for .NET". You can now port your .NET Framework applications to cross-platform .NET.
