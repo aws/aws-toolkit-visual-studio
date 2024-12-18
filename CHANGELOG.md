@@ -1,3 +1,9 @@
+## 1.63.0.0 (2024-12-18)
+
+- **Feature** Publish to AWS has been updated to use v1.28.0 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Update beanstalk platform resolution logic to additionally use 'Deprecated' versions in order to continue supporting .NET 6.
+  - See https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2024-11-15 for more details.
+
 ## 1.62.0.0 (2024-12-16)
 
 - **Bug Fix** The confirmation dialog now shows the full url when clicking a link from Q Chat
