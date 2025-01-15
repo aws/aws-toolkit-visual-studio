@@ -71,7 +71,7 @@
         {
             "name": "languageServerSetupStage",
             "type": "string",
-            "allowedValues": [ "getManifest", "getServer", "validate", "initialize", "all" ],
+            "allowedValues": [ "getManifest", "getServer", "validate", "initialize", "initialized", "all" ],
             "description": "Represents a phase of the language server startup sequence"
         },
         {
