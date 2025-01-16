@@ -1,3 +1,7 @@
+## 1.64.0.0 (2025-01-15)
+
+- **Feature** The Q Chat generative AI disclaimer is now dismissable. Once acknowledged, the state is stored in Tools > Options > AWS Toolkit > Amazon Q under Q Chat.
+
 ## 1.63.0.0 (2024-12-18)
 
 - **Feature** Publish to AWS has been updated to use v1.28.0 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
