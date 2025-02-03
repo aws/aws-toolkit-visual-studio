@@ -1,3 +1,9 @@
+## 1.65.0.0 (2025-02-03)
+
+- **Bug Fix** Fixed a compatibility issue that caused problems with C/C++ functionality in other extensions like Visual Assist.
+- **Bug Fix** Add support for SSL validation. If you are using your IDE on a network that uses custom SSL certificates, you can configure the extension with your PEM based certificate. Tools > Options > AWS Toolkit > Proxy > Certificate Authority.
+- **Bug Fix** Improve proxy support preventing Q features from working in certain networking configurations.
+
 ## 1.64.0.0 (2025-01-15)
 
 - **Feature** The Q Chat generative AI disclaimer is now dismissable. Once acknowledged, the state is stored in Tools > Options > AWS Toolkit > Amazon Q under Q Chat.
