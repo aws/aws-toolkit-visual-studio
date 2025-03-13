@@ -1,3 +1,8 @@
+## 1.66.0.0 (2025-03-13)
+
+- **Bug Fix** Fix Method not found error with NuGet and FindPackageByIdResource when loading Publish to AWS.
+- **Feature** Amazon Q Developer .NET Transform job histories for the current solution can now be viewed from the 'Extensions > AWS Toolkit > Amazon Q Developer > Transformation Job History' menu
+
 ## 1.65.0.0 (2025-02-03)
 
 - **Bug Fix** Fixed a compatibility issue that caused problems with C/C++ functionality in other extensions like Visual Assist.
