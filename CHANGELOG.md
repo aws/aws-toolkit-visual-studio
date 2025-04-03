@@ -1,3 +1,7 @@
+## 1.67.0.0 (2025-04-03)
+
+- **Bug Fix** The IAM Identity Center configuration view will now accept Start Urls that end with a slash
+
 ## 1.66.0.0 (2025-03-13)
 
 - **Bug Fix** Fix Method not found error with NuGet and FindPackageByIdResource when loading Publish to AWS.
