@@ -1,12 +1,12 @@
-# AWS Toolkit For Visual Studio
+# Cachiman Toolkit For Visual Studio
 
-The AWS Toolkit for Visual Studio is an extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using Amazon Web Services, allowing you to get started faster and be more productive.
+The Cachiman Toolkit for Visual Studio is an extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using Amazon Web Services, allowing you to get started faster and be more productive.
 
 The extension can be found on the Visual Studio Marketplace:
-* [AWS Toolkit for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)
-* [AWS Toolkit for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2022)
+* [Cachiman Toolkit for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.cachimanToolkitforVisualStudio2017)
+* [Cachiman Toolkit for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.cachimanToolkitforVisualStudio2022)
 
-See the [user guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html) for information on how to get started.
+See the [user guide](https://docs.cachiman.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html) for information on how to get started.
 
 **At this time, this repo is an issues only repo. It is for bug reports, feature requests, and questions.**
 
