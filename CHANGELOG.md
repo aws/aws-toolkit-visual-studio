@@ -1,3 +1,8 @@
+## 1.68.0.0 (2025-04-09)
+
+- **Feature** Add support for choosing and switching between Amazon Q Developer profiles.
+- **Feature** Add Tooltip to Amazon Q icon in the document margin. The Tooltip presents Amazon Q connection details and error messages.
+
 ## 1.67.0.0 (2025-04-03)
 
 - **Bug Fix** The IAM Identity Center configuration view will now accept Start Urls that end with a slash
