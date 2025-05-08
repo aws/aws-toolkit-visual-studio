@@ -1,3 +1,11 @@
+## 1.69.0.0 (2025-05-08)
+
+- **Feature** Publish to AWS has been updated to use v1.29.0 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Add support for deploying ARM web apps to ECS Fargate
+  - Add support for deploying ARM console apps to ECS Fargate
+  - Add support for deploying ARM web apps to Elastic Beanstalk on Linux
+  - See https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-04-24 for more details.
+
 ## 1.68.0.0 (2025-04-09)
 
 - **Feature** Add support for choosing and switching between Amazon Q Developer profiles.
