@@ -1,3 +1,11 @@
+## 1.70.0.0 (2025-05-15)
+
+- **Feature** Add Transformation History feature
+- **Feature** Enable Private Nuget Support with Transformation
+- **Feature** Add Transformation Summary feature
+- **Feature** Enable ASP.NET Razor Views porting 
+- **Feature** Add separate auth workflow for AWS Transform
+
 ## 1.69.0.0 (2025-05-08)
 
 - **Feature** Publish to AWS has been updated to use v1.29.0 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
