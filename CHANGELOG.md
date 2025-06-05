@@ -1,3 +1,9 @@
+## 1.71.0.0 (2025-06-05)
+
+- **Feature** Agentic chat is now available - use natural langauge prompts in Q Chat to read, create, and alter files, generate code diffs, run command-line tasks, and much more.
+- **Feature** Add support for project rules, which are added as context in all of your Q chat interactions - https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/context-project-rules.html
+- **Feature** AWS Transform now downloads an html version of the transform summary in addition to the markdown version.
+
 ## 1.70.0.0 (2025-05-15)
 
 - **Feature** Add Transformation History feature
