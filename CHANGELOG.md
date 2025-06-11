@@ -1,3 +1,7 @@
+## 1.72.0.0 (2025-06-11)
+
+- **Feature** Add call to action in chat to subscribe to Q Developer Pro if monthly request limit is reached
+
 ## 1.71.0.0 (2025-06-05)
 
 - **Feature** Agentic chat is now available - use natural langauge prompts in Q Chat to read, create, and alter files, generate code diffs, run command-line tasks, and much more.
