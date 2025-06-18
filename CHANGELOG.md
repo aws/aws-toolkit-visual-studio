@@ -1,3 +1,8 @@
+## 1.73.0.0 (2025-06-18)
+
+- **Feature** MCP support has been added to agentic chat
+- **Feature** Model selection has now been added in Agentic Chat
+
 ## 1.72.0.0 (2025-06-11)
 
 - **Feature** Add call to action in chat to subscribe to Q Developer Pro if monthly request limit is reached
