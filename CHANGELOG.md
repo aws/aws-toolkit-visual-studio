@@ -1,3 +1,9 @@
+## 1.74.0.0 (2025-07-02)
+
+- **Bug Fix** Pressing Home or End in the chat panel no longer switches focus to another ToolWindow
+- **Feature** Adding abap content type to enable inline completions
+- **Feature** Pinned context support has been added to agentic chat
+
 ## 1.73.0.0 (2025-06-18)
 
 - **Feature** MCP support has been added to agentic chat
