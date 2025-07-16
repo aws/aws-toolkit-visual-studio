@@ -1,3 +1,7 @@
+## 1.75.0.0 (2025-07-16)
+
+- **Feature** Image support has been added to agentic chat
+
 ## 1.74.0.0 (2025-07-02)
 
 - **Bug Fix** Pressing Home or End in the chat panel no longer switches focus to another ToolWindow
