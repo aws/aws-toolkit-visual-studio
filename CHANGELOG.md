@@ -1,3 +1,8 @@
+## 1.76.0.0 (2025-08-06)
+
+- **Feature** Added profile-aware transformation job management
+- **Feature** Added Focused Logging for developer Profile
+
 ## 1.75.0.0 (2025-07-16)
 
 - **Feature** Image support has been added to agentic chat
