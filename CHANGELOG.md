@@ -1,3 +1,8 @@
+## 1.77.0.0 (2025-08-13)
+
+- **Bug Fix** Improvements to Transformation Job State Management.
+- **Feature** Added dynamic model selection support across all regions.
+
 ## 1.76.0.0 (2025-08-06)
 
 - **Feature** Added profile-aware transformation job management
