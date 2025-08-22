@@ -1,3 +1,7 @@
+## 1.77.1.0 (2025-08-21)
+
+- **Bug** Remove popup dialog with AWS Transform when porting unsupported project type
+
 ## 1.77.0.0 (2025-08-13)
 
 - **Bug Fix** Improvements to Transformation Job State Management.
