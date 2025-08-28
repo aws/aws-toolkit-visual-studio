@@ -1,3 +1,8 @@
+## 1.77.2.0 (2025-08-28)
+
+- **Bug Fix** Simplified dashboard layout by removing readiness columns in transformation plan.
+- **Bug Fix** Introducing cache validation to eliminate stale data causing transformation failures.
+
 ## 1.77.1.0 (2025-08-21)
 
 - **Bug** Remove popup dialog with AWS Transform when porting unsupported project type
