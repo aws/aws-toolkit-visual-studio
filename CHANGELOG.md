@@ -1,3 +1,8 @@
+## 1.77.3.0 (2025-09-04)
+
+- **Bug Fix** Transformation Job History menu now available when in-progress transformation exist for the current solution.
+- **Bug Fix** Fix private package index error and issue loading nuget sources with creds for .NET transformations
+
 ## 1.77.2.0 (2025-08-28)
 
 - **Bug Fix** Simplified dashboard layout by removing readiness columns in transformation plan.
