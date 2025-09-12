@@ -1,3 +1,7 @@
+## 1.78.0.0 (2025-09-11)
+
+- **Feature** Rename button in Transformation summary view from Download Summary to Download Transformation Report
+
 ## 1.77.3.0 (2025-09-04)
 
 - **Bug Fix** Transformation Job History menu now available when in-progress transformation exist for the current solution.
