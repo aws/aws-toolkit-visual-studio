@@ -1,3 +1,11 @@
+## 1.79.0.0 (2025-10-13)
+
+- **Breaking Change** Publish to AWS has been updated to use v2.0.4 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
+  - Upgrade the Deploy Tool from .NET 6 to .NET 8.
+  - Update AWS .NET SDK to V4.
+ - See https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-05-01, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-06-05, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-06-16, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-06-25, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-07-15, https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-09-08 and https://github.com/aws/aws-dotnet-deploy/releases/tag/release_2025-09-24 for more details.
+- **Breaking Change** The extension has been updated to use AWS SDK for .NET V4.0. Some functionality may be impacted as a result of this migration, please report any issues encountered with this version on GitHub: https://github.com/aws/aws-toolkit-visual-studio/issues/new/choose
+
 ## 1.78.0.0 (2025-09-11)
 
 - **Feature** Rename button in Transformation summary view from Download Summary to Download Transformation Report
