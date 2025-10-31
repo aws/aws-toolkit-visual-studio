@@ -1,3 +1,7 @@
+## 1.79.1.0 (2025-10-30)
+
+- **Bug Fix** Improved error messaging when transformation fails due to duplicate project.
+
 ## 1.79.0.0 (2025-10-13)
 
 - **Breaking Change** Publish to AWS has been updated to use v2.0.4 of the AWS .NET deploy tool. This version of the Toolkit includes the following Deploy Tool changes:
