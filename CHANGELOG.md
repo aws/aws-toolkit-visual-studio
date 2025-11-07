@@ -1,3 +1,8 @@
+## 1.80.0.0 (2025-11-06)
+
+- **Breaking Change** AWS CodeCommit support has been removed from Visual Studio 2026. CodeCommit features remain available in Visual Studio 2022. For more information about CodeCommit, see https://docs.aws.amazon.com/codecommit/
+- **Feature**  Preview support for Visual Studio 2026 has been added. Please report any issues encountered on GitHub: https://github.com/aws/aws-toolkit-visual-studio/issues/new/choose
+
 ## 1.79.1.0 (2025-10-30)
 
 - **Bug Fix** Improved error messaging when transformation fails due to duplicate project.
