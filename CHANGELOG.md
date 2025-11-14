@@ -1,3 +1,10 @@
+## 1.81.0.0 (2025-11-13)
+
+- **Bug Fix** Fix issue getting an incompatible version of private packages for AWS Transform for .NET
+- **Bug Fix** Update warning about build failure before starting AWS transform job
+- **Feature** Optimized AWS Transform to upload only selected project and its dependencies
+- **Feature** Allow projects already targeting the destination framework version and projects with build errors to be processed by AWS Transform
+
 ## 1.80.0.0 (2025-11-06)
 
 - **Breaking Change** AWS CodeCommit support has been removed from Visual Studio 2026. CodeCommit features remain available in Visual Studio 2022. For more information about CodeCommit, see https://docs.aws.amazon.com/codecommit/
