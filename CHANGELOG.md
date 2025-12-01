@@ -1,3 +1,7 @@
+## 1.82.0.0 (2025-12-01)
+
+- **Feature** Adding agentic AWS Transform for .NET and separating login experience for Amazon Q and AWS Transform, enabling customers to use both features sets in same session
+
 ## 1.81.0.0 (2025-11-13)
 
 - **Bug Fix** Fix issue getting an incompatible version of private packages for AWS Transform for .NET
