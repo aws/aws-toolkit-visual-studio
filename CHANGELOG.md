@@ -1,3 +1,8 @@
+## 1.83.0.0 (2025-12-17)
+
+- **Feature** Add support for deploying .NET 10 AWS Lambda Functions
+- **Feature** Visual Studio 2026 support is now generally available.
+
 ## 1.82.0.0 (2025-12-01)
 
 - **Feature** Adding agentic AWS Transform for .NET and separating login experience for Amazon Q and AWS Transform, enabling customers to use both features sets in same session
