@@ -1,3 +1,7 @@
+## 1.84.0.0 (2026-01-08)
+
+- **Feature** Copy next steps file to source folder on apply changes, enabling it to be bundled in subsequent AWS Transform jobs
+
 ## 1.83.0.0 (2025-12-17)
 
 - **Feature** Add support for deploying .NET 10 AWS Lambda Functions
