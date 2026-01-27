@@ -1,3 +1,7 @@
+## 1.85.0.0 (2026-01-26)
+
+- **Bug Fix** AWS Transform Hub improvements: (1) Added connection expiry notification with sign-in option (2) Fixed return navigation from diff view (3) Fixed Transformation ID display from Job History (4) Fixed View Diff dropdown state (5) Fixed in-progress job status display
+
 ## 1.84.0.0 (2026-01-08)
 
 - **Feature** Copy next steps file to source folder on apply changes, enabling it to be bundled in subsequent AWS Transform jobs
