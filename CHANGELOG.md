@@ -1,7 +1,7 @@
 ## 1.86.0.0 (2026-02-04)
 
 - **Feature** Add Lambda Test Tool .NET 10 launch profile setup support
-- **Feature** Replace AWS Transform for .NET summary page with compact dashboard for Transform workflow jobs. Dashboard displays transformation results, file changes, and action buttons (Apply Changes, View Diffs, Retry). Includes support for historical job viewing with proper state management.
+- **Feature** Replace AWS Transform for .NET summary page with compact dashboard for Transform workflow jobs. Dashboard displays transformation results, file changes, and action buttons (Apply Changes, View Diffs, Retry). Includes support for historical job viewing with proper state management
 
 ## 1.85.0.0 (2026-01-26)
 
