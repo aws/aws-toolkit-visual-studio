@@ -1,3 +1,7 @@
+## 1.87.0.0 (2026-02-19)
+
+- **Bug Fix** Exclude unrelated projects and files from artifacts.zip for AWS Transform for .NET
+
 ## 1.86.0.0 (2026-02-04)
 
 - **Feature** Add Lambda Test Tool .NET 10 launch profile setup support
