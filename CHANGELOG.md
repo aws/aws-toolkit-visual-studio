@@ -1,3 +1,8 @@
+## 1.88.0.0 (2026-03-13)
+
+- **Bug Fix** Validate solution file existence before starting AWS Transform job to prevent failures when a .csproj is opened without a discoverable .sln file
+- **Feature** Add dynamic next steps recommendation to the AWS Transform summary dashboard based on transformation source and target, suggesting AWS Transform retry or AI coding assistant follow-up as appropriate
+
 ## 1.87.0.0 (2026-02-19)
 
 - **Bug Fix** Exclude unrelated projects and files from artifacts.zip for AWS Transform for .NET
