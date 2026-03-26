@@ -1,3 +1,7 @@
+## 1.89.0.0 (2026-03-26)
+
+- **Bug Fix** Fixed an issue where editing the transformation plan and resuming the transform could leave the UI unresponsive, requiring a full restart. Users can now fix plan errors and retry without restarting the transformation.
+
 ## 1.88.0.0 (2026-03-13)
 
 - **Bug Fix** Validate solution file existence before starting AWS Transform job to prevent failures when a .csproj is opened without a discoverable .sln file
