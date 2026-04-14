@@ -1,3 +1,7 @@
+## 1.90.0.0 (2026-04-10)
+
+- **Bug Fix** Chat panel unresponsive when users open up a large repo
+
 ## 1.89.0.0 (2026-03-26)
 
 - **Bug Fix** Fixed an issue where editing the transformation plan and resuming the transform could leave the UI unresponsive, requiring a full restart. Users can now fix plan errors and retry without restarting the transformation.
