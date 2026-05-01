@@ -1,3 +1,5 @@
+## 1.91.0.0 (2026-04-29)
+
 ## 1.90.0.0 (2026-04-10)
 
 - **Bug Fix** Chat panel unresponsive when users open up a large repo
