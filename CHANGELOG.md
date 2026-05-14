@@ -1,3 +1,9 @@
+## 1.92.0.0 (2026-04-30)
+
+- **Bug Fix** fix: properly send folder context when calling @folder
+- **Deprecation** deprecate: remove @workspace indexing functionality
+- **Removal** Add UI surfacing Amazon Q Developer plugins end-of-support notice to users
+
 ## 1.91.0.0 (2026-04-29)
 
 ## 1.90.0.0 (2026-04-10)
