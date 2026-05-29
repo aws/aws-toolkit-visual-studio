@@ -1,3 +1,7 @@
+## 1.94.0.0 (2026-05-29)
+
+- **Bug Fix** Fix Local Build Verification getting stuck after disconnect/reconnect during AWS Transform for .NET. Pending build HITL completions now retry
+
 ## 1.93.0.0 (2026-05-14)
 
 - **Feature** Replace AWS Transform for .NET summary page with compact dashboard for Transform workflow jobs. Dashboard displays transformation results, file changes, and action buttons (Apply Changes, View Diffs, Retry). Includes support for historical job viewing with proper state management.
