@@ -1,3 +1,10 @@
+## 1.96.0.0 (2026-06-25)
+
+- **Feature** UX improvements for Getting Started page and Port dialog: reordered panels, updated ATX tagline, simplified dialog labels, replaced NuGet checkbox with dropdown, added info icons, and removed redundant status messages.
+- **Feature** Updated interactive mode banner with invitational language and added a persistent collapsible expander explaining how checkpoints work.
+- **Feature** Renamed the AWS Transform Hub tool window to AWS Transform Job Plan.
+- **Feature** Added 'Show transformation report' and 'Show next steps' buttons to the AWS Transform Job Plan window, visible once artifacts are available after transformation completes.
+
 ## 1.94.0.0 (2026-05-29)
 
 - **Bug Fix** Fix Local Build Verification getting stuck after disconnect/reconnect during AWS Transform for .NET. Pending build HITL completions now retry
