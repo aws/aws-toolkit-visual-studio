@@ -1,3 +1,7 @@
+## 1.97.0.0 (2026-07-01)
+
+- **Bug Fix** Fix customer edits not being synced to the agent during AWS Transform for .NET retry/continue. The workspace uplink now correctly fires during the review pause, enabling local edits to reach the agent on re-transformation.
+
 ## 1.96.0.0 (2026-06-25)
 
 - **Feature** UX improvements for Getting Started page and Port dialog: reordered panels, updated ATX tagline, simplified dialog labels, replaced NuGet checkbox with dropdown, added info icons, and removed redundant status messages.
