@@ -1,3 +1,8 @@
+## 1.98.0.0 (2027-07-16)
+
+- **Bug Fix** Fix third-party package upload incorrectly rejecting build-time-only NuGet packages (analyzers, build targets, tools) during .NET transform HITL flow.
+- **Bug Fix** Remove the client-side lines-of-code limit that blocked AWS Transform for .NET jobs on large solutions. The transformation agent no longer enforces a per-job input-size limit, so large code groups can now start transforming.
+
 ## 1.97.0.0 (2026-07-01)
 
 - **Bug Fix** Fix customer edits not being synced to the agent during AWS Transform for .NET retry/continue. The workspace uplink now correctly fires during the review pause, enabling local edits to reach the agent on re-transformation.
