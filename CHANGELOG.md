@@ -1,3 +1,8 @@
+## 1.99.0.0 (2026-07-28)
+
+- **Bug Fix**  Fix AWS Transform job tracking lost after LSP reconnect. The IDE region state was not restored when the language server reconnected, causing job cache saves to fail and  the chat window to lose connection to the running job.
+- **Bug Fix** Fixing region information on reconnect
+
 ## 1.98.0.0 (2026-07-16)
 
 - **Bug Fix** Fix third-party package upload incorrectly rejecting build-time-only NuGet packages (analyzers, build targets, tools) during .NET transform HITL flow.
