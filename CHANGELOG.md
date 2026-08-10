@@ -1,3 +1,7 @@
+## 1.100.0.0 (2026-08-10)
+
+- **Bug Fix** Update release infrastructure following the repository migration to the Amazon-Q-Developer GitHub organization.
+
 ## 1.99.0.0 (2026-07-28)
 
 - **Bug Fix**  Fix AWS Transform job tracking lost after LSP reconnect. The IDE region state was not restored when the language server reconnected, causing job cache saves to fail and  the chat window to lose connection to the running job.
