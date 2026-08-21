@@ -1,3 +1,7 @@
+## 1.101.0.0 (2026-08-20)
+
+- **Feature** Transfer a completed web transformation into Visual Studio to run local build verification and resolve build errors directly in the IDE.
+
 ## 1.100.0.0 (2026-08-10)
 
 - **Bug Fix** Update release infrastructure following the repository migration to the Amazon-Q-Developer GitHub organization.
