@@ -1,3 +1,7 @@
+## 1.102.0.0 (2026-08-25)
+
+- **Bug Fix** AWS Transform: beamed repositories now appear in the Beamed Transformations tab without reopening the dashboard, the Load button appears only once a repository is ready for local build verification, and the transformation plan and reports open the loaded repository's own files in multi-repository jobs.
+
 ## 1.101.0.0 (2026-08-20)
 
 - **Feature** Transfer a completed web transformation into Visual Studio to run local build verification and resolve build errors directly in the IDE.
