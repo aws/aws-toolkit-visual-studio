@@ -1,3 +1,7 @@
+## 1.103.0.0 (2026-09-03)
+
+- **Bug Fix** AWS Transform: the assessment report now opens the newest version when a job regenerates it (for example Assessment_Report_v2.md), instead of whichever file was found first.
+
 ## 1.102.0.0 (2026-08-25)
 
 - **Bug Fix** AWS Transform: beamed repositories now appear in the Beamed Transformations tab without reopening the dashboard, the Load button appears only once a repository is ready for local build verification, and the transformation plan and reports open the loaded repository's own files in multi-repository jobs.
