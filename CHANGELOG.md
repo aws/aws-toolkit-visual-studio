@@ -1,3 +1,8 @@
+## 1.104.0.0 (2026-09-09)
+
+- **Feature** Add a 'Generate unit tests' option to the AWS Transform for .NET start dialog, letting you choose up front whether unit tests are generated as part of the transformation.
+- **Feature** Suppress checkpoint affordances for status-only steps. AWS Transform for .NET unit-test-generation substeps now display as progress-only, without the checkpoint toggle, View Results button, or checkpoint checkbox.
+
 ## 1.103.0.0 (2026-09-03)
 
 - **Bug Fix** AWS Transform: the assessment report now opens the newest version when a job regenerates it (for example Assessment_Report_v2.md), instead of whichever file was found first.
