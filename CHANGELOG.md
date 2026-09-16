@@ -1,3 +1,8 @@
+## 1.105.0.0 (2026-09-16)
+
+- **Bug Fix** AWS Transform: interactive-mode checkpoints are now preserved when a transformation job reloads or reconnects (for example after restarting Visual Studio). Previously, any checkpoint you had turned off was switched back on after a reload.
+- **Feature** Amazon Q: when Amazon Q Developer refuses a Builder ID (new accounts are no longer accepted), the Amazon Q panel now explains why instead of showing a working-looking chat that silently fails, the Getting Started page reports the account as signed out with the same explanation, and the refused account cannot be signed in again from either surface. Choosing 'Try a different login method' lets you sign in with another account.
+
 ## 1.104.0.0 (2026-09-09)
 
 - **Feature** Add a 'Generate unit tests' option to the AWS Transform for .NET start dialog, letting you choose up front whether unit tests are generated as part of the transformation.
