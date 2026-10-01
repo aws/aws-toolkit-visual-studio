@@ -1,3 +1,11 @@
+## 1.106.0.0 (2026-10-01)
+
+- **Bug Fix** AWS Transform: fixes for beaming a transformed repository to the IDE — chat replies now appear within seconds instead of after a 15-minute delay, progress updates render as progress with a timestamp, the transformation summary arrives before local build verification starts, and intermittent "No presigned URL" load failures caused by overlapping background polls are resolved.
+- **Feature** Amazon Q: the IDE end-of-support notice is no longer shown after you dismiss it.
+- **Bug Fix** AWS Transform: the download list now shows only the latest transformation plan instead of one entry per edit, and earlier plans are kept in a previousPlans folder in the job's artifact workspace. Editing the plan is also no longer interrupted - previously the IDE refreshed the plan file every few seconds while you had it open, so Visual Studio repeatedly asked to reload it and your edits could be lost.
+- **Bug Fix** AWS Transform: switching the migration mode part-way through a job now survives closing and reopening the IDE. Previously the job came back in the mode it was started in, and the switch was lost. A mode change that the service refuses is also reported now, instead of appearing to have been applied.
+- **Bug Fix** AWS Transform: the private NuGet package upload prompt reappears after the IDE reconnects to a running job. Previously, it was suppressed for the rest of the session if the connection dropped or the profile changed while packages were still needed, preventing the job from proceeding.
+
 ## 1.105.0.0 (2026-09-16)
 
 - **Bug Fix** AWS Transform: interactive-mode checkpoints are now preserved when a transformation job reloads or reconnects (for example after restarting Visual Studio). Previously, any checkpoint you had turned off was switched back on after a reload.
