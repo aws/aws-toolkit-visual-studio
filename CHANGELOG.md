@@ -1,3 +1,7 @@
+## 1.107.0.0 (2026-10-15)
+
+- **Bug Fix** AWS Transform: a transformation now uploads only the projects belonging to the solution you started it from. Previously, when more than one solution shared a directory, files from the other solutions were sent with the job - adding unrelated project folders to the transformed output, letting projects outside your solution appear in the plan, and causing build failures where a converted project compiled every source file in the folder, including ones belonging to another solution.
+
 ## 1.106.0.0 (2026-10-01)
 
 - **Bug Fix** AWS Transform: fixes for beaming a transformed repository to the IDE — chat replies now appear within seconds instead of after a 15-minute delay, progress updates render as progress with a timestamp, the transformation summary arrives before local build verification starts, and intermittent "No presigned URL" load failures caused by overlapping background polls are resolved.
