@@ -1,3 +1,12 @@
+## 1.108.0.0 (2026-10-29)
+
+- **Feature** AWS Transform: you can now sign in with IAM credentials from your local AWS profiles (access keys, assume-role, IAM Identity Center account and role, or credential_process), in addition to IAM Identity Center.
+- **Bug Fix** Publish to AWS: when the Existing Targets list is empty, the panel now explains which deployments are eligible (same account and Region; created by Publish to AWS or the AWS .NET deploy tool, or a running Elastic Beanstalk environment on a supported .NET platform; initial deployment succeeded). The 'Let us know on GitHub' report now includes a visible checklist plus the Region and offered deployment types.
+- **Feature** AWS Transform: use buttons and typed commands in chat to open reports, download artifacts and set checkpoints.
+- **Bug Fix** EC2: "Open Remote Desktop" and "Open SSH Session" no longer fail with "Nullable object must have a value" when an attached security group has a rule without a port range. Rules that allow all traffic are now correctly treated as allowing the connection port, and the CloudFormation deployment wizard's security group port check was fixed the same way.
+- **Bug Fix** Publish to AWS: when the deployment tool fails while setting the deployment target (for example because an AWS API call made to pre-fill the recipe's settings was denied), the wizard now shows the deployment tool's actual error under the application name field instead of only the generic 'An error occurred in the deployment tool' message.
+- **Bug Fix** AWS Explorer, Publish to AWS, and other AWS Toolkit features are now available when you install an additional version of Visual Studio (for example Visual Studio 2026 alongside Visual Studio 2022) after already using the Toolkit. Previously they stayed hidden until the Toolkit was enabled again from Getting Started.
+
 ## 1.107.0.0 (2026-10-15)
 
 - **Bug Fix** AWS Transform: a transformation now uploads only the projects belonging to the solution you started it from. Previously, when more than one solution shared a directory, files from the other solutions were sent with the job - adding unrelated project folders to the transformed output, letting projects outside your solution appear in the plan, and causing build failures where a converted project compiled every source file in the folder, including ones belonging to another solution.
