@@ -1,3 +1,7 @@
+## 1.109.0.0 (2026-11-11)
+
+- **Bug Fix** Amazon Q asks before starting local MCP servers in a solution folder for the first time, and remembers an allowed folder.
+
 ## 1.108.0.0 (2026-10-29)
 
 - **Feature** AWS Transform: you can now sign in with IAM credentials from your local AWS profiles (access keys, assume-role, IAM Identity Center account and role, or credential_process), in addition to IAM Identity Center.
