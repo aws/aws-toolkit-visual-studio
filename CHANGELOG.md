@@ -1,3 +1,7 @@
+## 1.110.0.0 (2026-11-19)
+
+- **Feature** AWS Transform for .NET now supports .NET 11 as a transformation target.
+
 ## 1.109.0.0 (2026-11-11)
 
 - **Bug Fix** Amazon Q asks before starting local MCP servers in a solution folder for the first time, and remembers an allowed folder.
